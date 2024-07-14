@@ -21,5 +21,5 @@ for i in range(W-1, left, -1):
     elif blocks[i] < blocks[right]:
         water[i] = blocks[right] - blocks[i]
 
-print(water)
+# print(water)
 print(sum(water[1:W-1])) # 가장 왼쪽, 오른쪽 칸은 어차피 물이 고일 수 없으므로 빼고 계산
